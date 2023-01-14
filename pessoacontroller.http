@@ -1,0 +1,21 @@
+###
+POST http://localhost:8080/pessoa
+Content-Type: application/json
+
+{
+  "nome": "João Gomes",
+  "dataNascimento": "10/10/1995",
+  "enderecos": [
+    {
+      "enderecoPrincipal": true,
+      "logradouro": "Rua das Flores",
+      "cidade": "São Paulo",
+      "cep": "01153-000",
+      "numero": "12"
+    }
+  ]
+}
+
+###
+GET http://localhost:8080/pessoa
+Content-Type: application/json
