@@ -14,7 +14,7 @@ Uma API para criar, editar e excluir pessoas, escrita em Java usando Spring Boot
 
 ## Tecnologias
 
-- Java 17
+- JDK 17
 - Spring Boot
 - Spring Data JPA
 - H2 (banco de dados em memória)
@@ -34,7 +34,7 @@ Ou utilizar sua IDE preferida para executar os testes.
 ## Deployment
 
 O repostório contém um arquivo Dockerfile que pode ser utilizado para hospedar a aplicação
-em um serviço de sua preferência.
+em um serviço de sua preferência. (Fly.io, Heroku, etc...)
 
 Também é possível hospedar a aplicação manualmente em um VPS.
 
